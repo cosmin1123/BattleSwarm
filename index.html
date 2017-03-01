@@ -3,6 +3,9 @@
 <head>
     <title>Bullet Pool</title>
     <meta charset="utf-8">
+    <style type="text/css">
+      body { margin:0; padding:0;background: black;}
+    </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.min.js"></script>
     <script src="Weapon.js"></script>
     <link rel="shortcut icon" href="">
@@ -20,7 +23,7 @@
 
     <script type="text/javascript">
 
-    var game = new Phaser.Game(800, 600, Phaser.AUTO, 'game');
+    var game = new Phaser.Game("100", "93", Phaser.AUTO, 'game');
     //  The core game loop
 
     var PhaserGame = function () {
